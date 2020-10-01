@@ -9,8 +9,6 @@
             "email": "miks@cubesystems.lv"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "require": {
         "illuminate/support": "~5.0"
     },
