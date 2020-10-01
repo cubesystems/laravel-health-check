@@ -2,6 +2,7 @@
     "name": "cubesystems/laravel-health-check",
     "description": "Adds Liveness and Readiness Probes in the Laravel application",
     "type": "library",
+    "license": "MIT",
     "version": "1.0.0",
     "authors": [
         {
