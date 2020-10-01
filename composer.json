@@ -1,0 +1,31 @@
+{
+    "name": "cubesystems/laravel-health-check",
+    "description": "Adds Liveness and Readiness Probes in the Laravel application",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Miks Mikelsons",
+            "email": "miks@cubesystems.lv"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "illuminate/support": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CubeSystems\\HealthCheck\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CubeSystems\\HealthCheck\\HealthCheckServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
+}
