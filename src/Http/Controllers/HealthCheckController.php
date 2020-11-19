@@ -3,11 +3,11 @@
 namespace CubeSystems\HealthCheck\Http\Controllers;
 
 use CubeSystems\HealthCheck\Model\Heartbeat;
-use App\Http\Controllers\Controller;
+use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\Date;
 use Illuminate\Support\Facades\DB;
 
-class HealthCheckController extends Controller
+class HealthCheckController extends BaseController
 {
     /**
      * Check if the server is ready to receive traffic
